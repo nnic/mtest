@@ -2,7 +2,9 @@
   "name": "@mtest/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build" : "nx run account:build"
+  },
   "private": true,
   "devDependencies": {
     "@nx/cypress": "16.4.2",
